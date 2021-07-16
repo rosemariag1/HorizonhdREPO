@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="[COLOR orange][B]repository.HorizonhdREPO[/B][/COLOR]" name="[COLOR orange][B] Horizonhd REPO[/B][/COLOR]" version="1.0" provider-name="[COLOR orange][B] Horizonhd[/B][/COLOR]">
+    <extension point="xbmc.addon.repository" name="Nome Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/rosemariag1/HorizonhdREPO/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/rosemariag1/HorizonhdREPO/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/rosemariag1/HorizonhdREPO/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>REPO do Horizonhd</summary>
+        <description>addons do Horizonhd</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
